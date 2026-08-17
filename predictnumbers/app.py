@@ -68,7 +68,7 @@ def predict(image_from_sketchpad):
 
 with gr.Blocks() as demo:
     gr.Markdown("# Digits predictor:)")
-    gr.Markdown("##Upload a photo of a digit below!")
+    gr.Markdown("## Upload a photo of a digit below!")
 
     with gr.Row():
         with gr.Column():
